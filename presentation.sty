@@ -29,7 +29,7 @@
 \usepackage{pdfpages}
 
 % \usemintedstyle{solarizedlight}
-
+\usepackage{listings}
 % Package to get hyperrlinks
 \usepackage{hyperref}
 
@@ -40,3 +40,4 @@
 \usepackage[backend=biber, backref=true, url=true, isbn=true]{biblatex}
 \addbibresource{bibliography.bib}
 
+\newminted[SourceCode]{python}{mathescape, style=solarizedlight, bgcolor=sol-base3}
